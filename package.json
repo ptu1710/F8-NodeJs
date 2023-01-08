@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptu1710/F8-NodeJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "f8-nodejs"
+  ],
+  "author": "ixxc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptu1710/F8-NodeJs/issues"
+  },
+  "homepage": "https://github.com/ptu1710/F8-NodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
