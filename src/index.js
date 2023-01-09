@@ -6,6 +6,10 @@ const app = express();
 const port = 3000;
 
 const route = require("./routes");
+const db = require("./config/db");
+
+// Connect DB
+db.connect();
 
 app.use(express.static("./src/public"));
 
@@ -34,5 +38,5 @@ route(app);
 
 // Listening
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Listening on port ${port}`);
 });
